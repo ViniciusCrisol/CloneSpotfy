@@ -4,7 +4,7 @@ export const ConatinerItem = styled.div`
   margin: 13px;
   margin-left: 0;
   max-width: 200px;
-  height: 260px;
+  height: auto;
   overflow: hidden;
 
   h1 {
