@@ -17,6 +17,24 @@ export default function Main() {
         <CircleContainer />
         <SquareContainer />
       </ContainerItens>
+      <IndexText text="Favoritas" />
+      <ContainerItens>
+        <CircleContainer />
+        <SquareContainer />
+        <SquareContainer />
+        <SquareContainer />
+        <SquareContainer />
+        <SquareContainer />
+      </ContainerItens>
+      <IndexText text="Recomendações" />
+      <ContainerItens>
+        <SquareContainer />
+        <SquareContainer />
+        <SquareContainer />
+        <CircleContainer />
+        <SquareContainer />
+        <SquareContainer />
+      </ContainerItens>
     </Container>
   );
 }

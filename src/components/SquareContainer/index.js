@@ -1,5 +1,5 @@
 import React from 'react';
-import { ConatinerItem, ContainerIMG, ContainerIconsHover } from './styles';
+import { ConatinerItem, ContainerIMG } from './styles';
 
 import { GoKebabHorizontal } from 'react-icons/go';
 import { IoMdHeartEmpty, IoMdPlay } from 'react-icons/io';

@@ -1,7 +1,8 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
-import { FaCompactDisc } from 'react-icons/fa';
-import { IoIosRadio, IoMdHome } from 'react-icons/io';
+import { FaCompactDisc, FaHome } from 'react-icons/fa';
+import { IoIosRadio } from 'react-icons/io';
 
 import { Container, MenuItens } from './styles';
 
@@ -9,18 +10,18 @@ export default function Menu() {
   return (
     <Container>
       <MenuItens>
-        <h3>
-          <IoMdHome size={22} />
+        <NavLink to="/" exact>
+          <FaHome size={24} />
           Início
-        </h3>
-        <h3>
-          <FaCompactDisc size={22} />
+        </NavLink>
+        <NavLink to="/navigate">
+          <FaCompactDisc size={24} />
           Navegar
-        </h3>
-        <h3>
-          <IoIosRadio size={22} />
+        </NavLink>
+        <NavLink to="/radio">
+          <IoIosRadio size={24} />
           Rádio
-        </h3>
+        </NavLink>
       </MenuItens>
       <MenuItens>
         <strong>Sua bibliotéca</strong>
