@@ -1,6 +1,7 @@
 import React from 'react';
 
-import { Container, ContainerItens } from './styles';
+import { Container } from '../../styles/global';
+import { ContainerItens } from './styles';
 import SquareContainer from '../../components/SquareContainer';
 import CircleContainer from '../../components/CircleContainer';
 import IndexText from '../../components/IndexText';

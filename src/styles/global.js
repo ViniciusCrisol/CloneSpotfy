@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import styled from 'styled-components';
 
 export default createGlobalStyle`
 *{
@@ -26,5 +27,12 @@ body, input, button {
 button {
   cursor: pointer;
 }
+`;
 
+export const Container = styled.div`
+  width: auto;
+  flex: 1;
+  margin: 0;
+  margin-left: 200px;
+  padding: 16px 0;
 `;
