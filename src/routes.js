@@ -5,6 +5,7 @@ import Main from './pages/Main';
 import Navigate from './pages/Navigate';
 import Radio from './pages/Radio';
 import Playlist from './pages/Playlist';
+import Artist from './pages/Artist';
 
 export default function Routes() {
   return (
@@ -13,6 +14,7 @@ export default function Routes() {
       <Route path="/Navigate" exact component={Navigate} />
       <Route path="/Radio" exact component={Radio} />
       <Route path="/Playlist" exact component={Playlist} />
+      <Route path="/Artist" exact component={Artist} />
     </Switch>
   );
 }

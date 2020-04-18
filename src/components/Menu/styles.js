@@ -20,7 +20,7 @@ export const MenuItens = styled.div`
     display: flex;
 
     input {
-      width: 100%;
+      width: 70%;
       height: 26px;
       background: white;
       border: none;

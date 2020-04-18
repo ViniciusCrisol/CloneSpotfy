@@ -21,20 +21,16 @@ export default function Playlist() {
         </ContainerImage>
         <ContainerDescription>
           <strong>PLAYLIST</strong>
-          <h1>Paylist NAME</h1>
+          <h1>This Is Linkin Park</h1>
+          <p>The best of LP, all in one playlist .</p>
           <p>
-            Os hits od rock internacional e nacional estão reunidos desta
-            playlist.
-          </p>
-          <p>
-            Criada por: <a>Spots </a> - 69 músicas, 5h 3min{' '}
+            Criada por: <a>Spots </a> - 69 músicas, 5h 3min
           </p>
           <Buttons>
             <button>PAUSE</button>
           </Buttons>
         </ContainerDescription>
       </Header>
-
       <PlaylistTracks />
     </Container>
   );

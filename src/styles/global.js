@@ -32,7 +32,6 @@ button {
 export const Container = styled.div`
   width: auto;
   flex: 1;
-  margin: 0;
   margin-left: 200px;
   padding: 16px 0;
 `;

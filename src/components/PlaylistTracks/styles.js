@@ -8,7 +8,7 @@ export const Table = styled.table`
   width: 90%;
   max-width: 840px;
   justify-content: center;
-  text-align: center;
+  text-align: left;
 
   thead th {
     padding: 12px;

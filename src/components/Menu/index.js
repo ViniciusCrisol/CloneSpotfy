@@ -7,6 +7,8 @@ import { IoIosSearch } from 'react-icons/io';
 export default function Menu() {
   return (
     <Container>
+      {/* Search Section */}
+
       <MenuItens>
         <form>
           <input
@@ -14,13 +16,15 @@ export default function Menu() {
             name="Search"
             id="Search"
             placeholder="Pesquisar"
-            autoComplete={false}
           />
           <button type="submit">
             <IoIosSearch color="white" size={18} />
           </button>
         </form>
       </MenuItens>
+
+      {/* Nav Section */}
+
       <MenuItens>
         <NavLink to="/" exact>
           Início
@@ -28,15 +32,19 @@ export default function Menu() {
         <NavLink to="/navigate">Navegar</NavLink>
         <NavLink to="/radio">Rádio</NavLink>
       </MenuItens>
+
+      {/* Use Section */}
+
       <MenuItens>
         <strong>Sua bibliotéca</strong>
         <a>Feito para você</a>
         <a>Faixas recentes</a>
-        <a>Músicas Curtidas</a>
         <a>Álbuns</a>
         <a>Artistas</a>
-        <a>Podcasts</a>
       </MenuItens>
+
+      {/* Playlist Section */}
+
       <MenuItens>
         <strong>Playlists</strong>
         <a>This Is Amy Winehouse</a>
