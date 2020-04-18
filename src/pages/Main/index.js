@@ -9,9 +9,10 @@ import IndexText from '../../components/IndexText';
 export default function Main() {
   return (
     <Container>
-      <IndexText text="Tocadas Recentemente" />
+      <IndexText Text="Tocadas Recentemente" />
       <ContainerItens>
         <SquareContainer
+          LinkAdress="Playlist"
           Title="This Is Linkin Park"
           Image="https://i.scdn.co/image/ab67706f000000027f0c84268c9dc61aeb37ff4d"
           Description="O melhor da banda em uma única playlist."
@@ -27,8 +28,8 @@ export default function Main() {
           Description="O melhor do funk reunido nessa playlist."
         />
         <CircleContainer
-          Title="Adele"
-          Image="https://i.scdn.co/image/ab67616d0000b2734c3bbcff5e7248e415548f12"
+          Title="Billie Elish"
+          Image="https://i.scdn.co/image/2622edec99d68d1d141886be593c88cbe509f6d8"
         />
         <SquareContainer
           Title="All Out 00"
@@ -41,7 +42,7 @@ export default function Main() {
           Description="Os hits internacionais e nacionais reunidas em uma única playlist."
         />
       </ContainerItens>
-      <IndexText text="Favoritas" />
+      <IndexText Text="Favoritos" />
       <ContainerItens>
         <CircleContainer
           Title="Eminem"
@@ -65,7 +66,7 @@ export default function Main() {
           Description="O melhor da artista em uma única playlist."
         />
       </ContainerItens>
-      <IndexText text="Recomendações" />
+      <IndexText Text="Recomendações" />
       <ContainerItens>
         <SquareContainer
           Title="California Rock State"

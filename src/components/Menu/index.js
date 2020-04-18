@@ -1,27 +1,32 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-import { FaCompactDisc, FaHome } from 'react-icons/fa';
-import { IoIosRadio } from 'react-icons/io';
-
 import { Container, MenuItens } from './styles';
+import { IoIosSearch } from 'react-icons/io';
 
 export default function Menu() {
   return (
     <Container>
       <MenuItens>
+        <form>
+          <input
+            type="text"
+            name="Search"
+            id="Search"
+            placeholder="Pesquisar"
+            autoComplete={false}
+          />
+          <button type="submit">
+            <IoIosSearch color="white" size={18} />
+          </button>
+        </form>
+      </MenuItens>
+      <MenuItens>
         <NavLink to="/" exact>
-          <FaHome size={24} />
           Início
         </NavLink>
-        <NavLink to="/navigate">
-          <FaCompactDisc size={24} />
-          Navegar
-        </NavLink>
-        <NavLink to="/radio">
-          <IoIosRadio size={24} />
-          Rádio
-        </NavLink>
+        <NavLink to="/navigate">Navegar</NavLink>
+        <NavLink to="/radio">Rádio</NavLink>
       </MenuItens>
       <MenuItens>
         <strong>Sua bibliotéca</strong>
