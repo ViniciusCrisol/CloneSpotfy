@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 
 import { Container, MenuItens } from './styles';
 import { IoIosSearch } from 'react-icons/io';
@@ -47,8 +47,8 @@ export default function Menu() {
 
       <MenuItens>
         <strong>Playlists</strong>
-        <a>This Is Amy Winehouse</a>
-        <a>Rock Forever</a>
+        <Link to="Playlist">Lorem Ipsum</Link>
+        <Link to="Playlist">Lorem Ipsum</Link>
       </MenuItens>
     </Container>
   );

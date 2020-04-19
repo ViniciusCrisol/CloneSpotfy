@@ -15,19 +15,23 @@ export default function Playlist() {
       <Header>
         <ContainerImage>
           <img
-            src="https://i.scdn.co/image/ab67706f000000027f0c84268c9dc61aeb37ff4d"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAA1BMVEWIiIhYZW6zAAAASElEQVR4nO3BgQAAAADDoPlTX+AIVQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwDcaiAAFXD1ujAAAAAElFTkSuQmCC"
             alt="Image"
           />
         </ContainerImage>
         <ContainerDescription>
           <strong>PLAYLIST</strong>
-          <h1>This Is Linkin Park</h1>
-          <p>The best of LP, all in one playlist .</p>
+          <h1>Lorem Ipsum Playlist</h1>
           <p>
-            Criada por: <a>Spots </a> - 69 músicas, 5h 3min
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+            vitae bibendum mi. Nullam nec velit massa. Phasellus sit amet
+            vehicula lectus.
+          </p>
+          <p>
+            Criada por: <a>Lorem Ipsum</a> - 69 músicas, 5h 3min
           </p>
           <Buttons>
-            <button>PAUSE</button>
+            <button>PLAY</button>
           </Buttons>
         </ContainerDescription>
       </Header>

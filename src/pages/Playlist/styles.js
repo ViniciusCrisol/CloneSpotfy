@@ -25,6 +25,7 @@ export const ContainerDescription = styled.div`
     color: #7d7d7d;
   }
   p {
+    max-width: 400px;
     font-weight: bold;
     margin-top: 8px;
     font-size: 14px;

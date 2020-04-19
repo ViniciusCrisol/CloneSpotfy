@@ -1,6 +1,12 @@
 import React from 'react';
 
-import { Header, Container, ContainerDescription } from './styles';
+import {
+  Header,
+  Container,
+  ContainerDescription,
+  ContainerLinks,
+  ContainerButton,
+} from './styles';
 
 export default function Artist() {
   return (
@@ -9,7 +15,16 @@ export default function Artist() {
         <ContainerDescription>
           <strong>ARTISTA</strong>
           <h1>Linkin Park</h1>
-          <button>PLAY</button>
+          <ContainerButton>
+            <button>PLAY</button>
+            <button>SEGUIR</button>
+          </ContainerButton>
+          <ContainerLinks>
+            <p>Visão geral</p>
+            <p>Os fãs também curtem</p>
+            <p>Sobre</p>
+            <p>AO VIVO</p>
+          </ContainerLinks>
         </ContainerDescription>
       </Header>
     </Container>

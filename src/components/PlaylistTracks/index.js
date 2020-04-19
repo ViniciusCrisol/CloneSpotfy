@@ -22,13 +22,13 @@ export default function PlaylistTracks() {
         <tbody>
           <tr>
             <td>
-              <p>Numb</p>
+              <p>Lorem Ipsum</p>
             </td>
             <td>
-              <p>Linkin Park</p>
+              <p>Lorem Ipsum</p>
             </td>
             <td>
-              <p>Meteora</p>
+              <p>Lorem Ipsum</p>
             </td>
             <td>
               <p>3:00</p>
@@ -36,13 +36,13 @@ export default function PlaylistTracks() {
           </tr>
           <tr>
             <td>
-              <p>Burn it Down</p>
+              <p>Lorem Ipsum</p>
             </td>
             <td>
-              <p>Linkin Park</p>
+              <p>Lorem Ipsum</p>
             </td>
             <td>
-              <p>Living Things</p>
+              <p>Lorem Ipsum</p>
             </td>
             <td>
               <p>3:12</p>
@@ -50,13 +50,13 @@ export default function PlaylistTracks() {
           </tr>
           <tr>
             <td>
-              <p>Faint</p>
+              <p>Lorem Ipsum</p>
             </td>
             <td>
-              <p>Linkin Park</p>
+              <p>Lorem Ipsum</p>
             </td>
             <td>
-              <p>Meteora</p>
+              <p>Lorem Ipsum</p>
             </td>
             <td>
               <p>3:37</p>
@@ -65,13 +65,13 @@ export default function PlaylistTracks() {
 
           <tr>
             <td>
-              <p>In the End</p>
+              <p>Lorem Ipsum</p>
             </td>
             <td>
-              <p>Linkin Park</p>
+              <p>Lorem Ipsum</p>
             </td>
             <td>
-              <p>Hibrid Theory</p>
+              <p>Lorem Ipsum</p>
             </td>
             <td>
               <p>3:14</p>
@@ -79,13 +79,13 @@ export default function PlaylistTracks() {
           </tr>
           <tr>
             <td>
-              <p>Crawling</p>
+              <p>Lorem Ipsum</p>
             </td>
             <td>
-              <p>Linkin Park</p>
+              <p>Lorem Ipsum</p>
             </td>
             <td>
-              <p>Hibrid Theory</p>
+              <p>Lorem Ipsum</p>
             </td>
             <td>
               <p>3:29</p>
