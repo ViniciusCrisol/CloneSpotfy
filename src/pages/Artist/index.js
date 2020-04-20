@@ -6,7 +6,10 @@ import {
   ContainerDescription,
   ContainerLinks,
   ContainerButton,
+  ContainerTopSongs,
+  TopSongsTitle,
 } from './styles';
+import TopTracks from '../../components/TopTracks';
 
 export default function Artist() {
   return (
@@ -27,6 +30,16 @@ export default function Artist() {
           </ContainerLinks>
         </ContainerDescription>
       </Header>
+      <ContainerTopSongs>
+        <TopSongsTitle>
+          <strong>Popular</strong>
+        </TopSongsTitle>
+        <TopTracks Position="1" />
+        <TopTracks Position="2" />
+        <TopTracks Position="3" />
+        <TopTracks Position="4" />
+        <TopTracks Position="5" />
+      </ContainerTopSongs>
     </Container>
   );
 }

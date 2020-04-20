@@ -16,7 +16,7 @@ export const Header = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   background-image: linear-gradient(to top, #181818, rgba(0, 0, 0, 0)),
-    url('https://i.scdn.co/image/1685533969d5b68cbc630f991e873bd6467f1814');
+    url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAA1BMVEWIiIhYZW6zAAAASElEQVR4nO3BgQAAAADDoPlTX+AIVQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwDcaiAAFXD1ujAAAAAElFTkSuQmCC');
 `;
 
 export const ContainerDescription = styled.div`
@@ -38,10 +38,9 @@ export const ContainerLinks = styled.div`
   display: flex;
 
   p {
-    font-weight: bold;
     color: #7d7d7d;
-    margin: 6px;
-    font-size: 13px;
+    margin: 12px 6px;
+    font-size: 12px;
     text-transform: uppercase;
     border-bottom: 1px solid tomato;
 
@@ -70,4 +69,12 @@ export const ContainerButton = styled.div`
       margin-left: 12px;
     }
   }
+`;
+
+export const ContainerTopSongs = styled.div`
+  padding: 32px 32px;
+`;
+
+export const TopSongsTitle = styled.div`
+  margin-bottom: 12px;
 `;
