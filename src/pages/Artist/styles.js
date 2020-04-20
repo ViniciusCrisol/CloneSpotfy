@@ -41,7 +41,7 @@ export const ContainerLinks = styled.div`
     font-weight: bold;
     color: #7d7d7d;
     margin: 6px;
-    font-size: 10px;
+    font-size: 13px;
     text-transform: uppercase;
     border-bottom: 1px solid tomato;
 
