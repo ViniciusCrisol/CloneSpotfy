@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  max-width: 400px;
+  max-width: 800px;
   position: relative;
+  margin: 2px 0;
 
   div {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid grey;
 
     img {
       width: 40px;

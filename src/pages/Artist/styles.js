@@ -30,20 +30,24 @@ export const ContainerDescription = styled.div`
   }
 
   h1 {
-    font-size: 44px;
+    font-size: 24px;
   }
 `;
 
 export const ContainerLinks = styled.div`
   display: flex;
+  margin-top: 12px;
+
+  @media (max-width: 453px) {
+    display: none;
+  }
 
   p {
+    font-weight: bold;
     color: #7d7d7d;
-    margin: 12px 6px;
+    margin: 0 6px;
     font-size: 12px;
     text-transform: uppercase;
-    border-bottom: 1px solid tomato;
-
     &:first-child {
       color: white;
     }
@@ -51,6 +55,14 @@ export const ContainerLinks = styled.div`
 `;
 
 export const ContainerButton = styled.div`
+  display: flex;
+  align-items: center;
+  margin: 6px 0;
+
+  @media (max-width: 715px) {
+    justify-content: center;
+  }
+
   button {
     font-weight: bold;
     width: 60px;
@@ -67,6 +79,14 @@ export const ContainerButton = styled.div`
 
     &:last-child {
       margin-left: 12px;
+      background: none;
+      border-radius: 50%;
+      border: 2px solid grey;
+      width: 32px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   }
 `;
@@ -76,5 +96,6 @@ export const ContainerTopSongs = styled.div`
 `;
 
 export const TopSongsTitle = styled.div`
+  font-size: 16px;
   margin-bottom: 12px;
 `;

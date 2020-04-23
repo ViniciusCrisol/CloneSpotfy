@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { AiOutlineHeart } from 'react-icons/ai';
+
 import {
   Header,
   Container,
@@ -17,10 +19,12 @@ export default function Artist() {
       <Header>
         <ContainerDescription>
           <strong>ARTISTA</strong>
-          <h1>Linkin Park</h1>
+          <h1>Lorem Ipsum Artist</h1>
           <ContainerButton>
             <button>PLAY</button>
-            <button>SEGUIR</button>
+            <button>
+              <AiOutlineHeart size={20} color="grey" />
+            </button>
           </ContainerButton>
           <ContainerLinks>
             <p>Visão geral</p>
