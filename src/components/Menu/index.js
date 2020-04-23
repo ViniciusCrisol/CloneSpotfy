@@ -1,8 +1,8 @@
 import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 
-import { Container, MenuItens } from './styles';
 import { IoIosSearch } from 'react-icons/io';
+import { Container, MenuItens } from './styles';
 
 export default function Menu() {
   return (
@@ -37,10 +37,10 @@ export default function Menu() {
 
       <MenuItens>
         <strong>Sua bibliotéca</strong>
-        <a>Feito para você</a>
-        <a>Faixas recentes</a>
-        <a>Álbuns</a>
-        <a>Artistas</a>
+        <a href="/">Feito para você</a>
+        <a href="/">Faixas recentes</a>
+        <a href="/">Álbuns</a>
+        <a href="/">Artistas</a>
       </MenuItens>
 
       {/* Playlist Section */}

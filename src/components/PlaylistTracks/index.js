@@ -1,8 +1,7 @@
 import React from 'react';
+import { MdTimer } from 'react-icons/md';
 
 import { Container, Table } from './styles';
-
-import { MdTimer } from 'react-icons/md';
 
 export default function PlaylistTracks() {
   return (

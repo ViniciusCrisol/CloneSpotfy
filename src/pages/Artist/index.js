@@ -10,8 +10,11 @@ import {
   ContainerButton,
   ContainerTopSongs,
   TopSongsTitle,
+  ContainerAlbuns,
 } from './styles';
 import TopTracks from '../../components/TopTracks';
+import Album from '../../components/Album';
+import PlaylistTracks from '../../components/PlaylistTracks';
 
 export default function Artist() {
   return (
@@ -21,8 +24,8 @@ export default function Artist() {
           <strong>ARTISTA</strong>
           <h1>Lorem Ipsum Artist</h1>
           <ContainerButton>
-            <button>PLAY</button>
-            <button>
+            <button type="button">PLAY</button>
+            <button type="button">
               <AiOutlineHeart size={20} color="grey" />
             </button>
           </ContainerButton>
@@ -38,12 +41,46 @@ export default function Artist() {
         <TopSongsTitle>
           <strong>Popular</strong>
         </TopSongsTitle>
-        <TopTracks Position="1" />
-        <TopTracks Position="2" />
-        <TopTracks Position="3" />
-        <TopTracks Position="4" />
-        <TopTracks Position="5" />
+        <TopTracks
+          Position="1"
+          Image="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAA1BMVEWIiIhYZW6zAAAASElEQVR4nO3BgQAAAADDoPlTX+AIVQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwDcaiAAFXD1ujAAAAAElFTkSuQmCC"
+          Name="Lorem Ipsum Music"
+          ViewsNumber="120.000"
+        />
+        <TopTracks
+          Position="2"
+          Image="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAA1BMVEWIiIhYZW6zAAAASElEQVR4nO3BgQAAAADDoPlTX+AIVQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwDcaiAAFXD1ujAAAAAElFTkSuQmCC"
+          Name="Lorem Ipsum Music"
+          ViewsNumber="20.000"
+        />
+        <TopTracks
+          Position="3"
+          Image="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAA1BMVEWIiIhYZW6zAAAASElEQVR4nO3BgQAAAADDoPlTX+AIVQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwDcaiAAFXD1ujAAAAAElFTkSuQmCC"
+          Name="Lorem Ipsum Music"
+          ViewsNumber="320.000"
+        />
+        <TopTracks
+          Position="4"
+          Image="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAA1BMVEWIiIhYZW6zAAAASElEQVR4nO3BgQAAAADDoPlTX+AIVQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwDcaiAAFXD1ujAAAAAElFTkSuQmCC"
+          Name="Lorem Ipsum Music"
+          ViewsNumber="420.000"
+        />
+        <TopTracks
+          Position="5"
+          Image="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAA1BMVEWIiIhYZW6zAAAASElEQVR4nO3BgQAAAADDoPlTX+AIVQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwDcaiAAFXD1ujAAAAAElFTkSuQmCC"
+          Name="Lorem Ipsum Music"
+          ViewsNumber="1.000"
+        />
       </ContainerTopSongs>
+      <ContainerAlbuns>
+        <Album
+          AlbumImage="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAA1BMVEWIiIhYZW6zAAAASElEQVR4nO3BgQAAAADDoPlTX+AIVQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwDcaiAAFXD1ujAAAAAElFTkSuQmCC"
+          alt="Album Image"
+          AlbumTitle="Lorem Ipsum"
+          AlbumDate="2018"
+        />
+        <PlaylistTracks />
+      </ContainerAlbuns>
     </Container>
   );
 }

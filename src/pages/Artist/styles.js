@@ -92,10 +92,14 @@ export const ContainerButton = styled.div`
 `;
 
 export const ContainerTopSongs = styled.div`
-  padding: 32px 32px;
+  padding: 32px;
 `;
 
 export const TopSongsTitle = styled.div`
   font-size: 16px;
   margin-bottom: 12px;
+`;
+
+export const ContainerAlbuns = styled.div`
+  padding: 32px;
 `;

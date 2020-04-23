@@ -3,18 +3,15 @@ import { IoMdHeartEmpty } from 'react-icons/io';
 
 import { Container } from './styles';
 
-export default function TopTracks({ Position }) {
+export default function TopTracks({ Position, Image, Name, ViewsNumber }) {
   return (
     <Container>
       <div>
-        <img
-          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAA1BMVEWIiIhYZW6zAAAASElEQVR4nO3BgQAAAADDoPlTX+AIVQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwDcaiAAFXD1ujAAAAAElFTkSuQmCC"
-          alt="Album Image"
-        />
+        <img src={Image} alt="Album" />
         <p>{Position}</p>
         <IoMdHeartEmpty />
-        <p>Lorem Ipsum Musisc</p>
-        <strong>125.325</strong>
+        <p>{Name}</p>
+        <strong>{ViewsNumber}</strong>
       </div>
     </Container>
   );
